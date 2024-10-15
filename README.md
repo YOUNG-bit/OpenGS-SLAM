@@ -30,13 +30,5 @@ This repository contains the code used in the paper "OpenGS-SLAM: Open-Set Dense
 
 If you find our paper and code useful, please cite us:
 ```bibtex
-<!-- @misc{wei2024gsfusiononlinergbdmapping,
-      title={GSFusion: Online RGB-D Mapping Where Gaussian Splatting Meets TSDF Fusion}, 
-      author={Jiaxin Wei and Stefan Leutenegger},
-      year={2024},
-      eprint={2408.12677},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2408.12677}, 
-} -->
+
 ```
