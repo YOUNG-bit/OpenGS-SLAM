@@ -23,7 +23,28 @@ Abstract: *Recent advancements in 3D Gaussian Splatting have significantly impro
 
 ## Note
 
-This repository contains the code used in the paper "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding". The code will be released upon acceptance of the paper.
+This repository contains the code used in the paper "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding". The full code will be released upon acceptance of the paper.
+
+## Environments
+Install requirements
+```bash
+conda create -n gsicpslam python==3.9
+conda activate gsicpslam
+conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+Also, PCL is needed for fast-gicp submodule.
+
+Install submodules
+
+```bash
+conda activate gsicpslam
+pip install submodules/diff-gaussian-rasterization
+pip install submodules/simple-knn
+```
+
+
+## Dem
 
 
 ## Citation
