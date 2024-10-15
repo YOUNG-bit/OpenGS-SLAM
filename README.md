@@ -21,9 +21,7 @@
 
 Abstract: *Recent advancements in 3D Gaussian Splatting have significantly improved the efficiency and quality of dense semantic SLAM. However, previous methods are generally constrained by limited-category pre-trained classifiers and implicit semantic representation, which hinder their performance in open-set scenarios and restrict 3D object-level scene understanding. To address these issues, we propose OpenGSSLAM, an innovative framework that utilizes 3D Gaussian representation to perform dense semantic SLAM in open-set environments. Our system integrates explicit semantic labels derived from 2D foundational models into the 3D Gaussian framework, facilitating robust 3D object-level scene understanding. We introduce Gaussian Voting Splatting to enable fast 2D label map rendering and scene updating. Additionally, we propose a Confidence-based 2D Label Consensus method to ensure consistent labeling across multiple views. Furthermore, we employ a Segmentation Counter Pruning strategy to improve the accuracy of semantic scene representation. Extensive experiments on both synthetic and real-world datasets demonstrate the effectiveness of our method in scene understanding, tracking, and mapping, achieving 10× faster semantic rendering and 2× lower storage costs compared to existing methods.*
 
-## Note
 
-This repository contains the code used in the paper "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding". The full code will be released upon acceptance of the paper.
 
 ## Environments
 Install requirements
@@ -43,9 +41,11 @@ pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 ```
 
+## Demo
 
-## Dem
+<!-- ## Note
 
+This repository contains the code used in the paper "OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding". The full code will be released upon acceptance of the paper. -->
 
 ## Citation
 
