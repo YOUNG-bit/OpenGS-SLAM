@@ -1,6 +1,6 @@
 <h1 align="center"> OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding </h1>
 
-<h3 align="center"> Dianyi Yang, Yu Gao, Xihan Wang, Yufeng Yue, Yi Yang∗,, Mengyin Fu </h3>
+<h3 align="center"> Dianyi Yang, Yu Gao, Xihan Wang, Yufeng Yue, Yi Yang∗, Mengyin Fu </h3>
 
 <!-- <h3 align="center">
   <a href="https://arxiv.org/abs/2408.12677">Paper</a> | <a href="https://youtu.be/rW8o_cRPZBg">Video</a> | <a href="https://gs-fusion.github.io/">Project Page</a>
