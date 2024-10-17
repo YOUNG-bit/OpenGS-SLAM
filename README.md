@@ -26,22 +26,21 @@ Abstract: *Recent advancements in 3D Gaussian Splatting have significantly impro
 ## Environments
 Install requirements
 ```bash
-conda create -n gsicpslam python==3.9
-conda activate gsicpslam
+conda create -n opengsslam python==3.9
+conda activate opengsslam
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
-Also, PCL is needed for fast-gicp submodule.
-
 Install submodules
 
 ```bash
-conda activate gsicpslam
+conda activate opengsslam
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
 ```
 
 ## Demo
+Download our pre-built Semantic 3D Gaussian scenes.
 
 <!-- ## Note
 
